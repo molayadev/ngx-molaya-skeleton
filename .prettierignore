@@ -1,0 +1,8 @@
+build
+coverage
+e2e
+node_modules
+dist
+*.json
+commitlint.config.js
+*.md
