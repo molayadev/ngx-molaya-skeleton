@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'ngx-molaya-skeleton';
+  title = JSON.parse(atob(process.env.MOLA_FIREBASE_SETTINGS));
 }
